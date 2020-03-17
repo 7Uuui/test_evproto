@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+7e7489a21287cf0dcb41fc7078e1d05b examples/sudoku.pb.cc

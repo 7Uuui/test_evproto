@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../evproto/common.h
+
+../evproto/eventloop.h
+evproto/common.h
+../evproto/evproto/common.h
+
+../evproto/evproto.h
+evproto/common.h
+../evproto/evproto/common.h
+
+/usr/local/evproto-master/examples/eventloop_test.cc
+evproto/evproto.h
+/usr/local/evproto-master/examples/evproto/evproto.h
+evproto/eventloop.h
+/usr/local/evproto-master/examples/evproto/eventloop.h
+evproto/httpserver.h
+/usr/local/evproto-master/examples/evproto/httpserver.h
+glog/logging.h
+-
+

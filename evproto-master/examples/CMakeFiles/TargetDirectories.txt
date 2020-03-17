@@ -1,0 +1,3 @@
+/usr/local/evproto-master/examples/CMakeFiles/sudoku_client.dir
+/usr/local/evproto-master/examples/CMakeFiles/sudoku_proto.dir
+/usr/local/evproto-master/examples/CMakeFiles/sudoku_server.dir

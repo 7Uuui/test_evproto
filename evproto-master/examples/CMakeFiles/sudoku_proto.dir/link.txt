@@ -1,0 +1,2 @@
+/usr/bin/ar cr libsudoku_proto.a  CMakeFiles/sudoku_proto.dir/sudoku.pb.o
+/usr/bin/ranlib libsudoku_proto.a

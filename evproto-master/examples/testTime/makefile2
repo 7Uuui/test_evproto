@@ -1,0 +1,15 @@
+
+
+objects = test_time.o TimeStamp.o
+
+TestTime : $(objects) 
+	gcc -o  TestTime $(objects) -lstdc++
+
+test_time.o : test_time.cc TimeStamp.h
+	gcc -c test_time.cc -lstdc++
+
+TimeStamp.o : TimeStamp.cc TimeStamp.h
+	gcc -c TimeStamp.cc -lstdc++
+
+clean:
+	rm TestTime test_time.o TimeStamp.o
